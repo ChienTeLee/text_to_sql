@@ -31,7 +31,7 @@ app = FastAPI()
 # )
 
 # build llm
-os.environ["OPENAI_API_KEY"] = "your openai key"
+os.environ["OPENAI_API_KEY"] = "your_openai_key"
 file_path = "./table_schema.txt"
 document_store = create_document_store(file_path)
 rag_pipeline = create_rag_pipeline(document_store)

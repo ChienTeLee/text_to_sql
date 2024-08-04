@@ -10,8 +10,6 @@ from haystack.components.builders import PromptBuilder
 from haystack.components.generators import OpenAIGenerator
 from haystack.components.rankers import TransformersSimilarityRanker
 
-os.environ["OPENAI_API_KEY"] = "your_openai_key"
-
 
 def create_document_store(source):
     document_store = InMemoryDocumentStore()
