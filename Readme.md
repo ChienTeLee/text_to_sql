@@ -16,3 +16,8 @@ npm run serve
 pipenv shell
 fastapi dev webapi.py
 ```
+
+## GUI
+<p align="center">
+  <img src="https://github.com/ChienTeLee/text_to_sql/raw/master/img/example_img.png" width="60%" height="55%"> 
+</p>
