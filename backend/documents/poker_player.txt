@@ -1,0 +1,11 @@
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "Poker_Player_ID"}
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "People_ID"}
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "Final_Table_Made"}
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "Best_Finish"}
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "Money_Rank"}
+{"db_id": "poker_player", "table_name": "poker_player", "column_name": "Earnings"}
+{"db_id": "poker_player", "table_name": "people", "column_name": "People_ID"}
+{"db_id": "poker_player", "table_name": "people", "column_name": "Nationality"}
+{"db_id": "poker_player", "table_name": "people", "column_name": "Name"}
+{"db_id": "poker_player", "table_name": "people", "column_name": "Birth_Date"}
+{"db_id": "poker_player", "table_name": "people", "column_name": "Height"}

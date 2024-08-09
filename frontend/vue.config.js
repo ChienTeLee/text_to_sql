@@ -3,7 +3,7 @@ const http = require('http');
 module.exports = {
   devServer: {
     proxy: {
-      '/ask/': {
+      '/ask_llm/': {
         target: 'http://127.0.0.1:8000',
         changeOrigin: true,
         onProxyReq: (proxyReq, req, res) => {

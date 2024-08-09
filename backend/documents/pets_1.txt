@@ -1,0 +1,14 @@
+{"db_id": "pets_1", "table_name": "Student", "column_name": "StuID"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "LName"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "Fname"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "Age"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "Sex"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "Major"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "Advisor"}
+{"db_id": "pets_1", "table_name": "Student", "column_name": "city_code"}
+{"db_id": "pets_1", "table_name": "Has_Pet", "column_name": "StuID"}
+{"db_id": "pets_1", "table_name": "Has_Pet", "column_name": "PetID"}
+{"db_id": "pets_1", "table_name": "Pets", "column_name": "PetID"}
+{"db_id": "pets_1", "table_name": "Pets", "column_name": "PetType"}
+{"db_id": "pets_1", "table_name": "Pets", "column_name": "pet_age"}
+{"db_id": "pets_1", "table_name": "Pets", "column_name": "weight"}

@@ -1,0 +1,10 @@
+{"db_id": "course_teach", "table_name": "course", "column_name": "Course_ID"}
+{"db_id": "course_teach", "table_name": "course", "column_name": "Staring_Date"}
+{"db_id": "course_teach", "table_name": "course", "column_name": "Course"}
+{"db_id": "course_teach", "table_name": "teacher", "column_name": "Teacher_ID"}
+{"db_id": "course_teach", "table_name": "teacher", "column_name": "Name"}
+{"db_id": "course_teach", "table_name": "teacher", "column_name": "Age"}
+{"db_id": "course_teach", "table_name": "teacher", "column_name": "Hometown"}
+{"db_id": "course_teach", "table_name": "course_arrange", "column_name": "Course_ID"}
+{"db_id": "course_teach", "table_name": "course_arrange", "column_name": "Teacher_ID"}
+{"db_id": "course_teach", "table_name": "course_arrange", "column_name": "Grade"}

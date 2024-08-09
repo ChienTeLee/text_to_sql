@@ -1,0 +1,17 @@
+{"db_id": "employee_hire_evaluation", "table_name": "employee", "column_name": "Employee_ID"}
+{"db_id": "employee_hire_evaluation", "table_name": "employee", "column_name": "Name"}
+{"db_id": "employee_hire_evaluation", "table_name": "employee", "column_name": "Age"}
+{"db_id": "employee_hire_evaluation", "table_name": "employee", "column_name": "City"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "Shop_ID"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "Name"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "Location"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "District"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "Number_products"}
+{"db_id": "employee_hire_evaluation", "table_name": "shop", "column_name": "Manager_name"}
+{"db_id": "employee_hire_evaluation", "table_name": "hiring", "column_name": "Shop_ID"}
+{"db_id": "employee_hire_evaluation", "table_name": "hiring", "column_name": "Employee_ID"}
+{"db_id": "employee_hire_evaluation", "table_name": "hiring", "column_name": "Start_from"}
+{"db_id": "employee_hire_evaluation", "table_name": "hiring", "column_name": "Is_full_time"}
+{"db_id": "employee_hire_evaluation", "table_name": "evaluation", "column_name": "Employee_ID"}
+{"db_id": "employee_hire_evaluation", "table_name": "evaluation", "column_name": "Year_awarded"}
+{"db_id": "employee_hire_evaluation", "table_name": "evaluation", "column_name": "Bonus"}

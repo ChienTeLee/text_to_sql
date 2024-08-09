@@ -1,0 +1,9 @@
+{"db_id": "voter_1", "table_name": "AREA_CODE_STATE", "column_name": "area_code"}
+{"db_id": "voter_1", "table_name": "AREA_CODE_STATE", "column_name": "state"}
+{"db_id": "voter_1", "table_name": "CONTESTANTS", "column_name": "contestant_number"}
+{"db_id": "voter_1", "table_name": "CONTESTANTS", "column_name": "contestant_name"}
+{"db_id": "voter_1", "table_name": "VOTES", "column_name": "vote_id"}
+{"db_id": "voter_1", "table_name": "VOTES", "column_name": "phone_number"}
+{"db_id": "voter_1", "table_name": "VOTES", "column_name": "state"}
+{"db_id": "voter_1", "table_name": "VOTES", "column_name": "contestant_number"}
+{"db_id": "voter_1", "table_name": "VOTES", "column_name": "created"}

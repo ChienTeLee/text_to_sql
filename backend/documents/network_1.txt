@@ -1,0 +1,7 @@
+{"db_id": "network_1", "table_name": "Highschooler", "column_name": "ID"}
+{"db_id": "network_1", "table_name": "Highschooler", "column_name": "name"}
+{"db_id": "network_1", "table_name": "Highschooler", "column_name": "grade"}
+{"db_id": "network_1", "table_name": "Friend", "column_name": "student_id"}
+{"db_id": "network_1", "table_name": "Friend", "column_name": "friend_id"}
+{"db_id": "network_1", "table_name": "Likes", "column_name": "student_id"}
+{"db_id": "network_1", "table_name": "Likes", "column_name": "liked_id"}

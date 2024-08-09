@@ -1,0 +1,10 @@
+{"db_id": "singer", "table_name": "singer", "column_name": "Singer_ID"}
+{"db_id": "singer", "table_name": "singer", "column_name": "Name"}
+{"db_id": "singer", "table_name": "singer", "column_name": "Birth_Year"}
+{"db_id": "singer", "table_name": "singer", "column_name": "Net_Worth_Millions"}
+{"db_id": "singer", "table_name": "singer", "column_name": "Citizenship"}
+{"db_id": "singer", "table_name": "song", "column_name": "Song_ID"}
+{"db_id": "singer", "table_name": "song", "column_name": "Title"}
+{"db_id": "singer", "table_name": "song", "column_name": "Singer_ID"}
+{"db_id": "singer", "table_name": "song", "column_name": "Sales"}
+{"db_id": "singer", "table_name": "song", "column_name": "Highest_Position"}

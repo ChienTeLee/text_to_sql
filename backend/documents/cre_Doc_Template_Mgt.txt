@@ -1,0 +1,17 @@
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Ref_Template_Types", "column_name": "Template_Type_Code"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Ref_Template_Types", "column_name": "Template_Type_Description"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Template_ID"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Version_Number"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Template_Type_Code"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Date_Effective_From"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Date_Effective_To"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Templates", "column_name": "Template_Details"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Documents", "column_name": "Document_ID"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Documents", "column_name": "Template_ID"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Documents", "column_name": "Document_Name"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Documents", "column_name": "Document_Description"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Documents", "column_name": "Other_Details"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Paragraphs", "column_name": "Paragraph_ID"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Paragraphs", "column_name": "Document_ID"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Paragraphs", "column_name": "Paragraph_Text"}
+{"db_id": "cre_Doc_Template_Mgt", "table_name": "Paragraphs", "column_name": "Other_Details"}

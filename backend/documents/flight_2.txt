@@ -1,0 +1,13 @@
+{"db_id": "flight_2", "table_name": "airlines", "column_name": "uid"}
+{"db_id": "flight_2", "table_name": "airlines", "column_name": "Airline"}
+{"db_id": "flight_2", "table_name": "airlines", "column_name": "Abbreviation"}
+{"db_id": "flight_2", "table_name": "airlines", "column_name": "Country"}
+{"db_id": "flight_2", "table_name": "airports", "column_name": "City"}
+{"db_id": "flight_2", "table_name": "airports", "column_name": "AirportCode"}
+{"db_id": "flight_2", "table_name": "airports", "column_name": "AirportName"}
+{"db_id": "flight_2", "table_name": "airports", "column_name": "Country"}
+{"db_id": "flight_2", "table_name": "airports", "column_name": "CountryAbbrev"}
+{"db_id": "flight_2", "table_name": "flights", "column_name": "Airline"}
+{"db_id": "flight_2", "table_name": "flights", "column_name": "FlightNo"}
+{"db_id": "flight_2", "table_name": "flights", "column_name": "SourceAirport"}
+{"db_id": "flight_2", "table_name": "flights", "column_name": "DestAirport"}

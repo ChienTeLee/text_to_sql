@@ -7,7 +7,15 @@
         <input type="text" id="user" v-model="user" required>
       </div>
       <div>
-        <label for="query">Text Input:</label>
+        <label for="query">
+          Text Input:
+          <a href="https://github.com/ChienTeLee/text_to_sql/blob/master/example_question.txt" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="example-link">
+            (Example Questions)
+          </a>
+        </label>
         <textarea id="query" v-model="query" required></textarea>
       </div>
       <button type="submit">Text to SQL</button>
@@ -16,9 +24,14 @@
       <h2>Response:</h2>
       <p><strong>User Name:</strong> {{ responseData.user }}</p>
       <p><strong>Timestamp:</strong> {{ responseData.timestamp }}</p>
+      <p><strong>Database ID:</strong> {{ responseData.db_id }}</p>
       <div class="response-block">
         <strong>Content:</strong>
         <pre><code>{{ responseData.response }}</code></pre>
+      </div>
+      <div class="response-block">
+        <strong>SQLite Result:</strong>
+        <pre><code>{{ responseData.sqlite_result }}</code></pre>
       </div>
     </div>
   </div>
@@ -49,7 +62,7 @@ export default {
         
         console.log('Sending request with data:', requestData); // Debug log
 
-        const response = await axios.post('/ask/', requestData, {
+        const response = await axios.post('/ask_llm/', requestData, {
           headers: {
             'Content-Type': 'application/json'
           }

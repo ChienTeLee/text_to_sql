@@ -1,0 +1,12 @@
+{"db_id": "museum_visit", "table_name": "museum", "column_name": "Museum_ID"}
+{"db_id": "museum_visit", "table_name": "museum", "column_name": "Name"}
+{"db_id": "museum_visit", "table_name": "museum", "column_name": "Num_of_Staff"}
+{"db_id": "museum_visit", "table_name": "museum", "column_name": "Open_Year"}
+{"db_id": "museum_visit", "table_name": "visitor", "column_name": "ID"}
+{"db_id": "museum_visit", "table_name": "visitor", "column_name": "Name"}
+{"db_id": "museum_visit", "table_name": "visitor", "column_name": "Level_of_membership"}
+{"db_id": "museum_visit", "table_name": "visitor", "column_name": "Age"}
+{"db_id": "museum_visit", "table_name": "visit", "column_name": "Museum_ID"}
+{"db_id": "museum_visit", "table_name": "visit", "column_name": "visitor_ID"}
+{"db_id": "museum_visit", "table_name": "visit", "column_name": "Num_of_Ticket"}
+{"db_id": "museum_visit", "table_name": "visit", "column_name": "Total_spent"}

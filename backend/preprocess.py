@@ -1,49 +1,44 @@
 import json
-import sqlite3
 from pathlib import Path
 
 
-def create_db(database_names):
-    # get spider sql files
-    sql_files = [Path("./dataset/spider/database").joinpath(name).joinpath("schema.sql") for name in database_names]
+def create_document(json_path, document_dir):
+    with open(json_path, 'r') as f:
+        dev_data = json.load(f)
 
-    # create db
-    con = sqlite3.connect("spider.db")
-    cur = con.cursor()
-    for f in sql_files:
-        with open(f, 'r') as file:
-            sql_text = file.read()
-            cur.executescript(sql_text)
-    con.commit()
+    db_id_lst = {x["db_id"] for x in dev_data}
 
-    # check
-    cur.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    tables = cur.fetchall()
-    if tables:
-        print("Tables in the database:")
-        for table in tables:
-            print(table[0])
-    else:
-        print("No table found")
-    
-    # close db
-    con.close()
+    with open("./dataset/spider/tables.json", 'r') as f:
+        table_data = json.load(f)
+    table_data = [x for x in table_data if x["db_id"] in db_id_lst]
 
+    document_folder = Path(document_dir)
+    document_folder.mkdir(parents=True, exist_ok=True)
 
+    for table in table_data:
+        table_names = table["table_names_original"]
+        column_names = table["column_names_original"]
+        db_id = table["db_id"]
+        filepath = document_folder.joinpath(f"{db_id}.txt")
 
-def create_metadata(database_names):
-    # create table metadata
-    with open("./dataset/spider/tables.json", 'r') as file:
-        data = json.load(file)
-    data = [x for x in data if x["db_id"] in database_names]
-    with open("table_schema.txt", 'w') as file:
-        json.dump(data, file, indent=4)
+        for x in column_names:
+            if x[0]!= -1:
+                table_name = table_names[x[0]]
+                column_name = x[1]
+                d = {
+                    "db_id": db_id,
+                    "table_name": table_name,
+                    "column_name": column_name,
+                }
+                with open(filepath, "a+") as f:
+                    json.dump(d, f)
+                    f.write('\n')
 
 
 def main():
-    database_names = ["department_management", "farm", "student_assessment"]
-    create_db(database_names)
-    create_metadata(database_names)
+    json_path = "./dataset/spider/dev.json"
+    document_dir = "./documents"
+    create_document(json_path, document_dir)
 
 
 if __name__ == "__main__":
